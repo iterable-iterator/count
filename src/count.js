@@ -14,9 +14,9 @@ import _count from './_count.js';
  * // returns [0,-1,-2,-3,-4]
  * list( head( count( 0 , -1 ) , 5 ) ) ;
  *
- * @param {Number} [start=0] - The starting value.
- * @param {Number} [step=1] - The step between the values.
- * @returns {Iterator}
+ * @param {number} [start=0] - The starting value.
+ * @param {number} [step=1] - The step between the values.
+ * @returns {IterableIterator<number>}
  */
 export default function count(start = 0, step = 1) {
 	return _count(start, step);
