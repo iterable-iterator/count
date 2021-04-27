@@ -11,6 +11,7 @@ See [docs](https://iterable-iterator.github.io/count/index.html).
 ```js
 import {count} from '@iterable-iterator/count';
 for (const i of count()) console.log(i); // 0 1 2 3 4 ...
+count(2, 3); // 2 5 8 11 14 ...
 ```
 
 [![License](https://img.shields.io/github/license/iterable-iterator/count.svg)](https://raw.githubusercontent.com/iterable-iterator/count/main/LICENSE)
