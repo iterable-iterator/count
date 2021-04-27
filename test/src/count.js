@@ -1,6 +1,7 @@
 import test from 'ava';
 
-import {count, next} from '../../../src/index.js';
+import {next} from '@iterable-iterator/next';
+import {count} from '../../src/index.js';
 
 test('count( 0 , 1 )', (t) => {
 	const it = count(0, 1);
