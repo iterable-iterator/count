@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@aureooms/js-error@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-5.0.3.tgz#e4cb52e3525028e4725a5886663a67a0749abf6b"
-  integrity sha512-hGLMr9UIgPubX72V7vS69N8toMoK52emuA9jV/EOleK4m7HUF0HjdssNXZytd+udyY3996CBre89MOgTEn0Udw==
-
 "@babel/code-frame@7.12.11":
   version "7.12.11"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.12.11.tgz#f4ad435aa263db935b8f10f2c552d23fb716a63f"
@@ -1351,17 +1346,22 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@failure-abstraction/error@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-5.0.5.tgz#0cf54ae8f76a025a8df015acd958192fb29a5e9a"
+  integrity sha512-1wYCScLBgVzSrXWDNg6KqZPCTtrbduDIxGGx3OXfGXQgWusFC8vdgKL6XLycAgsv3FRx8jardWQGYnEHUCccQQ==
+
 "@istanbuljs/schema@^0.1.2":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@iterable-iterator/next@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-0.0.1.tgz#7984c31c305864f3a3922bc44ea6333db71e8645"
-  integrity sha512-7XF4GNoHJLfOcWCh0R0MUJriUJodIrJHTKA5kJTn+hbnl92p1w3pU7CY6XE5KnP4sBBsxtB5UrEAWkZ0+8C8cg==
+"@iterable-iterator/next@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.0.tgz#6e66e6c2423e390ac806bfdc778b918d05c866f5"
+  integrity sha512-ml0SPDbw9N3S8++yx/Gqd0o9CuY4sPUUGlhJMhCQC2sSL6RpXmNaBLvGhCJTckelSzyaTVpe/yUlS/iwJNwxnQ==
   dependencies:
-    "@aureooms/js-error" "^5.0.3"
+    "@failure-abstraction/error" "^5.0.5"
 
 "@js-library/commitlint-config@0.0.4":
   version "0.0.4"
