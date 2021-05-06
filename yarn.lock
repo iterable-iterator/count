@@ -1371,10 +1371,10 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.3.tgz#e45e384e4b8ec16bce2fd903af78450f6bf7ec98"
   integrity sha512-ZXRY4jNvVgSVQ8DL3LTcakaAtXwTVUxE81hslsyD2AtoXW/wVob10HkOJ1X/pAlcI7D+2YoZKg5do8G/w6RYgA==
 
-"@iterable-iterator/next@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.0.tgz#6e66e6c2423e390ac806bfdc778b918d05c866f5"
-  integrity sha512-ml0SPDbw9N3S8++yx/Gqd0o9CuY4sPUUGlhJMhCQC2sSL6RpXmNaBLvGhCJTckelSzyaTVpe/yUlS/iwJNwxnQ==
+"@iterable-iterator/next@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/next/-/next-1.0.1.tgz#ed7fb7b6bf44c3bd77dd01e2c5a0a03830b9142c"
+  integrity sha512-igrAA2O3qCGHQbEjktXeiYxopq5RvaNhzooivyuq7vmE1U2tRmMyP8e5+LaNbrVLZH1jGWcWIATsNo8Q3D/I5w==
   dependencies:
     "@failure-abstraction/error" "^5.0.5"
 
