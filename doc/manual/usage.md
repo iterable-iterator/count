@@ -6,14 +6,14 @@
 
 First, require the polyfill at the entry point of your application
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then, import the library where needed
 ```js
-const count = require( '@iterable-iterator/count' ) ;
+const count = await import( '@iterable-iterator/count' ) ;
 // or
 import * as count from '@iterable-iterator/count' ;
 ```
