@@ -17,8 +17,7 @@ count(2, 3); // 2 5 8 11 14 ...
 [![License](https://img.shields.io/github/license/iterable-iterator/count.svg)](https://raw.githubusercontent.com/iterable-iterator/count/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@iterable-iterator/count.svg)](https://www.npmjs.org/package/@iterable-iterator/count)
 [![Tests](https://img.shields.io/github/workflow/status/iterable-iterator/count/ci:test?event=push&label=tests)](https://github.com/iterable-iterator/count/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/iterable-iterator/count.svg)](https://david-dm.org/iterable-iterator/count)
-[![Dev dependencies](https://img.shields.io/david/dev/iterable-iterator/count.svg)](https://david-dm.org/iterable-iterator/count?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/iterable-iterator/count.svg)](https://github.com/iterable-iterator/count/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/iterable-iterator/count.svg)](https://github.com/iterable-iterator/count/issues)
 [![Downloads](https://img.shields.io/npm/dm/@iterable-iterator/count.svg)](https://www.npmjs.org/package/@iterable-iterator/count)
 
